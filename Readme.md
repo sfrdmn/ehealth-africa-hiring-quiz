@@ -16,12 +16,10 @@ Explain the time and memory complexity of your implementation.
 (A perfect number is a positive integer that is equal to the sum of its proper positive divisors excluding the number itself)
 ```
 
-I took the question as an opportunity to try out a more proper "scientific computing" style implementation.
-I.e. doing parallel map/reduce on large data. It's a bit silly: I would need way more cores to see any benefit,
-not to mention, I would have gotten a bigger boost by just optimizing the algorithm, but it was a good exercise.
-
-Because integers are represented as byte arrays, the implementation is approximately O(n^2) [[1]][triangle] where n is equal
-to the integer given as input. Though, given infinite memory or small input, you could do it in O(n)
+Because integers are represented as floating point numbers with MAX of approx. _1.79e+308_, the algorithm runs in O(n) linear
+time. The limitation is that it can only validates perfect numbers with <= 309 digits, i.e. the first 12 perfect numbers. To validate
+any arbitrary perfect number, assuming bounded memory, the algorithm would have a O(n^2) complexity, where n is equal to x
+in f(x) [[1]][triangle]
 
 ## 3
 

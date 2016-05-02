@@ -1,0 +1,27 @@
+{
+  "name": "ehealth-quiz",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./run-es6.sh test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfrdmn/ehealth-africa-hiring-quiz.git"
+  },
+  "author": "Sean Fridman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sfrdmn/ehealth-africa-hiring-quiz/issues"
+  },
+  "homepage": "https://github.com/sfrdmn/ehealth-africa-hiring-quiz#readme",
+  "devDependencies": {
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "moment": "^2.13.0",
+    "moment-range": "^2.2.0"
+  }
+}
