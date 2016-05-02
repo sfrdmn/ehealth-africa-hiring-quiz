@@ -1,5 +1,7 @@
 # eHealth Africa Hiring Quiz
 
+[![Build Status](https://travis-ci.org/sfrdmn/ehealth-africa-hiring-quiz.svg?branch=master)](https://travis-ci.org/sfrdmn/ehealth-africa-hiring-quiz)
+
 ## 1
 
 ```
