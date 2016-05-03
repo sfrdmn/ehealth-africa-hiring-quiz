@@ -17,7 +17,7 @@ Explain the time and memory complexity of your implementation.
 ```
 
 Because integers are represented as floating point numbers with MAX of approx. _1.79e+308_, the algorithm runs in O(n) linear
-time. The limitation is that it can only validates perfect numbers with <= 309 digits, i.e. the first 12 perfect numbers. To validate
+time. The limitation is that it can only validate perfect numbers with <= 309 digits, i.e. the first 12 perfect numbers. To validate
 any arbitrary perfect number, assuming bounded memory, the algorithm would have a O(n^2) complexity, where n is equal to x
 in f(x) [[1]][triangle]
 
